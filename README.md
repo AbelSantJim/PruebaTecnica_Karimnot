@@ -103,8 +103,8 @@ CREATE DATABASE prueba_tecnica;
 
 ```properties
 spring.datasource.url=jdbc:postgresql://localhost:5432/prueba_tecnica
-spring.datasource.username=TU_USUARIO
-spring.datasource.password=TU_PASSWORD
+spring.datasource.username=postgres
+spring.datasource.password=12345678
 spring.jpa.hibernate.ddl-auto=update
 jwt.secret=tuClaveSecretaMuyLargaParaJWT1234567890
 ```
